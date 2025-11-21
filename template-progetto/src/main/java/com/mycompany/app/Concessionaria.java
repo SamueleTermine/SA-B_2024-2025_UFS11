@@ -53,7 +53,7 @@ public class Concessionaria {
                 risultati.get(i).add(veicoloInv);
             }
         }
-        printRisultati(risultati.reversed());
+        printRisultati(risultati);
     }
 
     private void printRisultati(Map<Integer, List<Veicolo>> risultati) {
