@@ -16,3 +16,4 @@ jobs:
       - run: pwd
         working-directory: template-progetto
       - run: mvn install
+        working-directory: template-progetto
