@@ -9,4 +9,4 @@ jobs:
       - run: sudo apt update
       - run: pwd
       - run: ls -la
-  
+      - run: java -version  
